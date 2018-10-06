@@ -36,7 +36,6 @@ class App extends Component {
     console.log("click on: " + this.state.icons[( position - 1)].id)
     console.log("start position: " + position)
     console.log("This.state.icons[(position - 1 )].name: " + this.state.icons[(position - 1 )].name)
-    position.push(this.selectedCards)
     console.log(this.selectedCards)
 
     this.setState({ icons: shuffleImages(icons)});
